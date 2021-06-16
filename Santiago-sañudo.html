@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi pagina Personal</title>
+
+<meta charset="UTF-8">
+	<meta name="author" content="https://francescricart.com/tutorial-css/"/>
+<style>
+h1 {
+  text-align: center;
+}
+h2 {
+  background-color: lightblue;
+  color: black;
+}
+h3 {
+  background-color: orangered;
+  color: black;
+}
+h1 {
+  color: blue;
+}
+
+.p {
+  font-family: "Times New Roman", Times, serif;
+}
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-indent: 50px;
+}
+th {
+  background-color: lightblue;
+
+}
+
+input {
+  width: 100%;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+</style>
+</head>
+<body>
+
+
+<h1>Santiago sañudo </h1>
+<h2>Biografía</h2>
+<center><img src="avatar.jpg" width="150" height="150" alt="nombre apellido"  align = “center”></center>
+<br>
+<center><p class="p1">Me llamo saniago sañudo soy colombiano, tengo 18 años, nacido en el 2003 en cali</p></center>
+<hr>
+<br>
+
+
+<h2>Favoritos</h2>
+<h3>Platos</h3>
+<ul>
+<li>spaghetti</li>
+<li>Arroz paisa</li>
+<li>Hamburguesa</li>
+</ul>
+<h3>Pasatiempos</h3>
+<ol>
+<li>Jugar videojuegos</li>
+<li>Hacer deporte</li>
+<li>Ver peliculas</li>
+</ol>
+
+<h3>Canciones</h3>
+<br>
+<center><table  border="1">
+<tr>
+<th>Genero</th>
+<th>Nombre</th>
+<th>Autor</th>
+<th>Audio</th>
+</tr>
+<tr>
+<td>Rap</td>
+<td>Me Tiene Mal</td>
+<td>Paulo londra</td>
+<td><audio controls>
+    <source src="paulo-londra-me-tiene-mal-official-video.mp3" type="audio/mp3"></audio>
+</td>
+</tr>
+<tr>
+<td>Reggeton</td>
+<td>Salgo pa' la calle</td>
+<td>Daddy yankee</td>
+<td><audio controls>
+    <source src="salgo-pa-la-calle.mp3" type="audio/mp3"></audio></td>
+</tr>
+<tr>
+<td>Hip hop</td>
+<td>Passionfruit</td>
+<td>Drake</td>
+<td><audio controls>
+    <source src="drake-passionfruit.mp3" type="audio/mp3"></audio></td>
+</tr>
+</table></center>
+
+
+
+<h3>Libro</h3>
+<br>
+<center><img src="61gMOZ9qML.jpg" width="300" height="300" alt="nombre apellido"  align = “center”></center>
+<br>
+<center><a href="http://www.pierrefaureobregon.edu.mx/restringido/tecno/laperla.pdf">La Perla</a></center>
+<h3>Película</h3>
+<br>
+<center><img src="719k71fGvhL._SY445_.jpg" width="300" height="300" alt="nombre apellido"  align = “center”></center>
+<br>
+<center><video width="320" height="240" controls>
+  <source src="Scott Pilgrim Vs. The World - Official Trailer.mp4" type="video/mp4"></video></center>
+<br>
+<h2>Para mayor información contáctanos: </h2>
+<form action="ejemplo.php" method="get">
+  <p>Nombre: <input type="text" name="nombre" size="40"></p>
+  <p>Correo: <input type="text" name="correo" size="40"></p>
+  <p>Asunto: <input type="text" name="asunto" size="40"></p>
+  <p>Mensaje: <input type="text" name="mensaje" size="40"></p>
+  
+  <p>
+    <input type="submit" value="Enviar">
+
+  </p>
+</form>
+
+
+
+
+</body>
+</html>
